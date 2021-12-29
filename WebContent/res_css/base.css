@@ -1,0 +1,25 @@
+@charset "utf-8";
+body,div,ul,li,hr,a,p,table,th,tr,td,input,textarea {
+    margin: 0px; /*设置上、右、下、左外边距均为：0px*/
+    padding: 0px; /*设置上、右、下、左内边距均为：0px*/
+}
+body {
+    font-family: "microsoft yahei";/*设置字体*/
+    font-size: 12px;/*设置字体尺寸*/
+}
+ul {
+    list-style: none;/*设置列表项无圆点*/
+}
+input, select, textarea {
+    padding-left: 5px;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+input[type=text], select, textarea {
+    padding-left: 5px;   
+}
+textarea {
+    resize: none;
+}

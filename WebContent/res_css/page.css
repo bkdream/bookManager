@@ -1,0 +1,57 @@
+@charset "utf-8";
+.content ul li {
+    padding: 5px 0;
+}
+.content .notice{
+    padding-left: 5px;
+    font-size: 14px;
+    color: blue;
+}
+.content .redColor {
+    width: 10px;
+    text-align: center;
+    color: red;
+}
+.content .tip {
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+}
+.content .errMsg {
+    text-align: left;
+    color: red;
+}
+.content .note {
+    display: inline-block;
+    width: 250px;
+    text-align: left;
+    color: gray;
+}
+.content .msg{
+    margin-top: 20px;
+    color:red;
+    font-size:24px;
+}
+.content input, .content select, .content img {
+    height: 30px;
+}
+.content input[type=text],.content input[type=password],.content textarea {
+    width: 200px;
+}
+.content input[type=submit], .content input[type=button], .content input[type=reset] {
+    width: 60px;
+}
+.content input[type=radio] {
+    vertical-align: middle;
+}
+.content select {
+    width: 150px;
+}
+.content img {
+    width: 30px;
+    vertical-align: bottom;
+}
+.content textarea {
+    height: 120px;
+    vertical-align: middle;
+}

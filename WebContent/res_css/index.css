@@ -1,0 +1,90 @@
+@charset "utf-8";
+/*网页容器start*/
+.container{
+    margin: 0 auto;/*设置容器水平居中*/
+    width: 80%; /*设置元素的宽度：80%*/
+    border: 1px solid #00719B; /*设置元素边框宽度1px、边框样式solid（实线）、边框颜色：#00719B*/
+}
+/*网页容器end*/
+/*网页头部start*/
+.header {
+    height: 100px;
+    line-height: 100px; /*设置行高：100px*/
+    text-align: center; /*设置元素文本的水平对齐方式：居中*/
+    font-size: 32px; /*设置字体尺寸：32px*/
+    font-weight: bold; /*设置文本的粗细：bold，粗体字符*/
+    color: Yellow; /*设置文本颜色：Yellow*/
+    background-image: url(../res_images/indexHeader.gif);/*设置元素背景图像：res_images/indexHeader.gif*/
+}
+/*网页头部end*/
+/*网页导航栏start*/
+.nav {
+    height: 30px;
+    background-color: #2E9CBD;/*设置元素背景颜色：#2E9CBD*/
+}
+.nav ul{
+    float:right;
+} 
+.nav li {
+    display: inline-block;/*能够让列表项目在页面显示为一行*/
+}     
+.nav li a {
+    padding: 0 10px;/*设置上、下内边距：0，左、右内边距：10px*/
+    height: 30px;
+    line-height: 30px;
+    display: block;/* 设置<a>标签以块级元素显示 */
+    text-decoration: none;/*设置文本装饰，none为无*/
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.nav li a:hover {
+    font-weight: bold; /*设置文本的粗细：bold，粗体字符*/
+    background-color: #007BA4;
+}
+/*网页导航栏end*/
+/*网页主体start*/
+.main {
+    height: 500px;
+    position: relative;
+    /* background-color: pink; */
+}
+.aside {
+    position: absolute;
+    padding-top: 80px;
+    width: 180px;
+    height: 420px;
+    border-right: 1px solid #00719B;
+}
+.aside ul {
+    margin-left: 50px;
+}
+.aside li {
+    padding: 5px 0;
+}
+.aside img {
+    width: 60px;
+    height: 60px;
+}
+.content { 
+    margin-left: 181px;
+    padding: 15px 25px;
+    /* background-color: yellow; */
+}
+.msg{
+    margin-top: 20px;
+    margin-left: 181px;
+    padding-left:25px;
+    color:red;
+    font-size:24px;
+}
+/*网页主体end*/
+/*网页尾部start*/
+.footer {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 12px;
+    color: Yellow;
+    background-color: #00719B; /*设置元素背景颜色：#00719B*/
+}
+/*网页尾部end*/
