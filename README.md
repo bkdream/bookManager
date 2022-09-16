@@ -8,3 +8,4 @@
 eclipse
 tomcat 8.5 
 jdk1.8.0_301
+mysql 5.1.3
